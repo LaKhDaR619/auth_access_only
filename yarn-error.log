@@ -1,0 +1,33 @@
+Arguments: 
+  /Users/mac/.nvm/versions/node/v13.12.0/bin/node /Users/mac/.nvm/versions/node/v13.12.0/bin/yarn add express
+
+PATH: 
+  /Users/mac/.nvm/versions/node/v13.12.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/mac/.nvm/versions/node/v13.12.0/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  13.12.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: write EPROTO 4407549440:error:1425F102:SSL routines:ssl_choose_client_version:unsupported protocol:../deps/openssl/openssl/ssl/statem/statem_lib.c:1942:
+  
+      at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:92:16)
+
+npm manifest: 
+  {
+    "name": "auth_refresh",
+    "version": "1.0.0",
+    "main": "server.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

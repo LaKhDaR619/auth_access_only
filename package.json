@@ -1,0 +1,13 @@
+{
+  "name": "auth_access_only",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "concurrently \"node resource_server.js\" \"node auth_server.js\""
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1"
+  }
+}
